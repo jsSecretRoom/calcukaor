@@ -1,0 +1,165 @@
+@font-face {
+  font-family: "KeaniaOne";
+  src: url(../fonts/KeaniaOne-Regular.ttf);
+}
+body {
+  background: url("../img/background.svg") no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+body .decorativ-list {
+  width: 1440px;
+  height: auto;
+}
+body .decorativ-list .conteinr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+  padding: 10px 0;
+  background-color: rgb(67, 64, 64);
+}
+body .decorativ-list .conteinr header {
+  width: 100vw;
+  text-align: center;
+}
+body .decorativ-list .conteinr header p {
+  font-size: 32px;
+}
+@media (min-width: 1420px) {
+  body .decorativ-list .conteinr header {
+    width: 1420px;
+  }
+}
+body .decorativ-list .conteinr main {
+  width: 100vw;
+  text-align: center;
+  background-color: rgb(231, 123, 21);
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+@media (min-width: 1420px) {
+  body .decorativ-list .conteinr main {
+    width: 1420px;
+  }
+}
+body .decorativ-list .conteinr main .calcukaor {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(58, 54, 50);
+  width: 250px;
+  padding: 20px 0;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+body .decorativ-list .conteinr main .calcukaor .res-vindow {
+  padding: 0 0 20px 0;
+  display: flex;
+  justify-content: center;
+}
+body .decorativ-list .conteinr main .calcukaor .res-vindow .res {
+  background-color: white;
+  border-radius: 10px;
+  height: 100px;
+  width: 230px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+body .decorativ-list .conteinr main .calcukaor .res-vindow .res p {
+  font-family: "KeaniaOne";
+  font-size: 20px;
+  text-align: end;
+}
+body .decorativ-list .conteinr main .calcukaor .logic-butoons {
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  padding: 0 0 10px 0;
+}
+body .decorativ-list .conteinr main .calcukaor .logic-butoons .back, body .decorativ-list .conteinr main .calcukaor .logic-butoons .Enter {
+  height: 50px;
+  width: 110px;
+  font-family: "KeaniaOne";
+  font-size: 20px;
+  border-radius: 10px;
+}
+body .decorativ-list .conteinr main .calcukaor .logic-butoons .back img, body .decorativ-list .conteinr main .calcukaor .logic-butoons .Enter img {
+  width: 70%;
+  height: 70%;
+}
+body .decorativ-list .conteinr main .calcukaor .buttons {
+  display: flex;
+  justify-content: center;
+}
+body .decorativ-list .conteinr main .calcukaor .buttons .numbers {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  row-gap: 10px;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+body .decorativ-list .conteinr main .calcukaor .buttons .numbers button {
+  font-family: "KeaniaOne";
+  font-size: 20px;
+  border-radius: 10px;
+  height: 60px;
+  width: 50px;
+  background-color: rosybrown;
+}
+body .decorativ-list .conteinr main .calcukaor .buttons .numbers .del {
+  height: 60px;
+  width: 110px;
+  grid-column: 2/4;
+  grid-row: 4;
+}
+body .decorativ-list .conteinr main .calcukaor .buttons .manipulation {
+  display: grid;
+  grid-template-columns: 50px;
+  grid-template-rows: 60px 60px 60px 60px;
+  row-gap: 10px;
+  padding: 0 0 0 10px;
+}
+body .decorativ-list .conteinr main .calcukaor .buttons .manipulation button {
+  font-size: 20px;
+  font-family: "KeaniaOne";
+  border-radius: 10px;
+  height: 60px;
+  width: 50px;
+  background-color: cadetblue;
+}
+body .decorativ-list .conteinr footer {
+  width: 100vw;
+}
+@media (min-width: 1420px) {
+  body .decorativ-list .conteinr footer {
+    width: 1420px;
+  }
+}
+body .decorativ-list .conteinr footer .info-block {
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 1px solid red;
+  border-radius: 10px 10px 0 0;
+  background-color: rgb(231, 123, 21);
+}
+body .decorativ-list .conteinr footer .info-block p {
+  font-family: "KeaniaOne";
+  font-size: 32px;
+}
+body .decorativ-list .conteinr footer .links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  background-color: rgb(23, 70, 255);
+  border-radius: 0 0 10px 10px;
+}
+body .decorativ-list .conteinr footer .links a img {
+  height: 45px;
+}
